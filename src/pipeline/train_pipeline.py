@@ -1,0 +1,1 @@
+#Contains code from the training pipeline. It's useful in triggering or  calling all the components
