@@ -1,8 +1,8 @@
 #For exception handling
 
 #sys module provides various functions and variables that can be used to manipulate different parts of the Python runtime environment.
-import logging
 import sys
+from logger import logging
 
 def error_message_detail(error, error_detail: sys):
     _,_,exc_tb=error_detail.exc_info()
