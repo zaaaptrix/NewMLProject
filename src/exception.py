@@ -2,7 +2,7 @@
 
 #sys module provides various functions and variables that can be used to manipulate different parts of the Python runtime environment.
 import sys
-from logger import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail: sys):
     _,_,exc_tb=error_detail.exc_info()
